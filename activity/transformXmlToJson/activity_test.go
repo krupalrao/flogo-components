@@ -1,4 +1,4 @@
-package transform
+package transformXmlToJson
 
 import (
 	"io/ioutil"
@@ -8,6 +8,7 @@ import (
 	"fmt"
 	"github.com/TIBCOSoftware/flogo-contrib/action/flow/test"
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
+	
 )
 
 var activityMetadata *activity.Metadata
@@ -47,10 +48,12 @@ func TestShift(t *testing.T) {
 		t.Fail()
 	}
 
-	if strings.Compare(tc.GetOutput(ovResult).(string),jsonOut) == 1 {
+	if strings.Compare(tc.GetOutput(ovResult).(string),jsonOut) != 1 {
 		t.Fail()
 	}
 
 	fmt.Println(tc.GetOutput(ovResult).(string))
+	fmt.Println(jsonOut)
+	
 
 }

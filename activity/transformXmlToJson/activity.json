@@ -1,12 +1,12 @@
 {
   "name": "transformXmlToJson",
   "type": "flogo:activity",
-  "ref": "github.com/krupalrao/flogocomponents/tree/master/activity/transformXmlToJson",
+  "ref": "github.com/mmussett/flogo-components/activity/transformXmlToJson",
   "version": "0.0.1",
-  "title": "transformXmlToJson",
-  "description": "XML to JSON transformation .",
+  "title": "Transform",
+  "description": "JSON transformation activity using Kazaam library.",
   "author": "mmussett",
-  "homepage": "https://github.com/krupalrao/flogocomponents/tree/master/activity/transformXmlToJson",
+  "homepage": "https://github.com/mmussett/flogo-components/tree/master/activity/transformXmlToJson",
   "inputs": [
     {
       "name": "content",

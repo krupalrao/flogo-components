@@ -6,7 +6,7 @@
   "title": "Transform",
   "description": "JSON transformation activity using Kazaam library.",
   "author": "mmussett",
-  "homepage": "https://github.com/krupalrao/flogo-components/tree/master/activity/transformXmlToJson",
+  "homepage": "https://github.com/krupalrao/flogo-components/activity/transformXmlToJson",
   "inputs": [
     {
       "name": "content",

@@ -1,11 +1,11 @@
 {
   "name": "flogo-httpXmlRequest",
   "type": "flogo:trigger",
-  "ref": "github.com/krupalrao/flogo-contrib/trigger/httpXmlRequest",
+  "ref": "github.com/krupalrao/flogo-components/trigger/httpXmlRequest",
   "version": "0.0.1",
   "title": "Receive httpXmlRequest Message",
   "description": "Simple httpXmlRequest Trigger",
-  "homepage": "https://github.com/krupalrao/flogo-contrib/tree/master/trigger/httpXmlRequest",
+  "homepage": "https://github.com/krupalrao/flogo-components/tree/master/trigger/httpXmlRequest",
   "settings": [
     {
       "name": "port",

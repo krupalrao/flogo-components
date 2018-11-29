@@ -8,7 +8,7 @@ This trigger provides your flogo application the ability to start a flow via RES
 ## Installation
 
 ```bash
-flogo install github.com/krupalrao/flogo-contrib/trigger/rest
+flogo install github.com/krupalrao/flogo-components/trigger/httpXmlRequest
 ```
 
 ## Schema

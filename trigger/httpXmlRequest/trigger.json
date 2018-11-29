@@ -1,0 +1,63 @@
+{
+  "name": "flogo-httpXmlRequest",
+  "type": "flogo:trigger",
+  "ref": "github.com/krupalrao/flogo-contrib/trigger/httpXmlRequest",
+  "version": "0.0.1",
+  "title": "Receive httpXmlRequest Message",
+  "description": "Simple httpXmlRequest Trigger",
+  "homepage": "https://github.com/krupalrao/flogo-contrib/tree/master/trigger/httpXmlRequest",
+  "settings": [
+    {
+      "name": "port",
+      "type": "integer",
+      "required": true
+    }
+  ],
+  "output": [
+    {
+      "name": "params",
+      "type": "params"
+    },
+    {
+      "name": "pathParams",
+      "type": "params"
+    },
+    {
+      "name": "queryParams",
+      "type": "params"
+    },
+    {
+      "name": "header",
+      "type": "params"
+    },
+    {
+      "name": "content",
+      "type": "any"
+    }
+  ],
+  "reply": [
+    {
+      "name": "code",
+      "type": "integer"
+    },
+    {
+      "name": "data",
+      "type": "any"
+    }
+  ],
+  "handler": {
+    "settings": [
+      {
+        "name": "method",
+        "type": "string",
+        "required" : true,
+        "allowed" : ["GET", "POST", "PUT", "PATCH", "DELETE"]
+      },
+      {
+        "name": "path",
+        "type": "string",
+        "required" : true
+      }
+    ]
+  }
+}

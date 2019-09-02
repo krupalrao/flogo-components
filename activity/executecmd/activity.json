@@ -1,0 +1,21 @@
+{
+  "name": "executecmd",
+  "type": "flogo:activity",
+   "version": "0.0.1",
+  "title": "Execute Command",
+  "description": "Execute Command Activity",
+  "homepage": "https://github.com/krupalrao/executecmd",
+  "inputs":[
+    {
+      "name": "command",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "name": "result",
+      "type": "string"
+    }
+  ]
+}
